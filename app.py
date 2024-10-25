@@ -12,3 +12,7 @@ def binary(n):
     return bin(n)[2:]
 
 print(binary(10))
+
+
+def decimal(n): 
+    while n

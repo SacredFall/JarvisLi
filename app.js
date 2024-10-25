@@ -34,6 +34,13 @@ function decimal(n) {
   return summ;
 }
 
-console.log(decimal(1010));
+function binary(n) {
+  let number = "";
+  while (n > 0) {
+    number = (n % 2) + number;
+    n = Math.floor(n / 2);
+  }
+  return number;
+}
 
-console.log(decimal(34234));
+console.log(binary(505));
